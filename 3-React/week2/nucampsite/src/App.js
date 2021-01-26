@@ -18,10 +18,3 @@ class App extends Component {
 }
 
 export default App;
-//  this is a test for git update
-//  this is a test for git update
-//  this is a test for git update
-//  this is a test for git update
-//  this is a test for git update
-//  this is a test for git update
-//  this is a test for git update
