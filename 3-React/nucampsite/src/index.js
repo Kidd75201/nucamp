@@ -1,11 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "typeface-lobster";
+import "typeface-open-sans";
+import App from "./App";
 
-// JSX - ReactDom.render(What do I want to render, Where do I want to render it)
+// JSX - ReactDOM.render(What to render, Where to render it)
 ReactDOM.render(
   <React.StrictMode>
     <App />
