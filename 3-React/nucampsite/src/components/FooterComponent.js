@@ -26,42 +26,23 @@ function Footer(props) {
           <div className="col-6 col-sm-3 text-center">
             <h5>Social</h5>
             <a
-              href="http://instagram.com"
               className="btn btn-social-icon btn-instagram"
+              href="http://instagram.com/"
             >
-              <i className="fa fa-instagram" />
+              <i className="fas fa-instagram" />
             </a>{" "}
-            <a
-              href="http://www.facebook.com"
-              className="btn btn-social-icon btn-facebook"
-            >
-              <i className="fa fa-facebook" />
-            </a>{" "}
-            <a
-              href="http://twitter.com/"
-              className="btn btn-social-icon btn-twitter"
-            >
-              <i className="fa fa-twitter" />
-            </a>{" "}
-            <a
-              href="http://youtube.com/"
-              className="btn btn-social-icon btn-google"
-            >
-              <i className="fa fa-youtube" />
-            </a>
           </div>
           <div className="col-sm-4 text-center">
-            <a role="button" href="tel: +12065551234" className="btn btn-link">
-              <i className="fa fa-envelope-o" />
-              campsites@nucamp.co
+            <a role="button" className="btn btn-link" href="tel:+12065551234">
+              <i className="fa fa-phone" /> 1-206-555-1234
             </a>
+            <br />
             <a
               role="button"
-              href="mailto:notreal@notreal.co"
               className="btn btn-link"
+              href="mailto:notreal@notreal.co"
             >
-              <i className="fa fa-phone" />
-              <br />
+              <i className="fa fa-envelope-o" /> campsites@nucamp.co
             </a>
           </div>
         </div>

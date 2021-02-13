@@ -1,5 +1,12 @@
 import React from "react";
-import { Card, CardImg, CardImgOverlay, CardTitle } from "reactstrap";
+import {
+  Card,
+  CardImg,
+  CardImgOverlay,
+  CardTitle,
+  Breadcrumb,
+  BreadcrumbItem,
+} from "reactstrap";
 import { Link } from "react-router-dom";
 
 // Functional Component with props -- render each card with different campsite details
@@ -31,6 +38,18 @@ function Directory(props) {
   // return for entire directory component
   return (
     <div className="container">
+      <div className="row">
+        <div className="col">
+          <Breadcrumb>
+            <BreadcrumbItem>
+              <Link to="/home">Home</Link>
+            </BreadcrumbItem>
+            <BreadcrumbItem active>Directory</BreadcrumbItem>
+          </Breadcrumb>
+          <h2>Directory</h2>
+          <hr />
+        </div>
+      </div>
       <div className="row">{directory}</div>
     </div>
   );
