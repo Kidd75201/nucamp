@@ -1,7 +1,9 @@
-const rect = {
-  perimeter: (x, y) => 2 * (x + y),
-  area: (x, y) => x * y,
-};
+const rect = require("./rectangle");
+// creates a call to the rectangle.js file instead of below
+// const rect = {
+//   perimeter: (x, y) => 2 * (x + y),
+//   area: (x, y) => x * y,
+// };
 
 function solveRect(l, w) {
   console.log(`Solving for rectangle with dimensions: ${l}, ${w}`);
