@@ -1,0 +1,23 @@
+Do you truly understand what this does? Make sure that you do by researching these few lines of code. Do extensive research and answer these questions before moving forward.
+
+
+
+Challenge #1:  What is the function split doing? What does split return? Research the function online.
+Answer: The split() method is used to split a string into an array of substrings, and returns the new array.
+
+Challenge #2: Why do we use (' ') in the first "split"? Why use [1]?
+* it splits the basic from the base64 string using the space as the separator.
+* uses [1] for the password auth.
+
+Challenge #3: Why is the function Buffer used, what does "base64" do?
+* Buffer objects are used to represent a fixed-length sequence of bytes.
+* Base64 encoding is a way to convert data (typically binary) into the ASCII character set.
+
+Challenge #4: Why is .toString() used?
+* To return the value of a String object.
+
+Challenge #5: Why is .split(':') used?
+* The split() method is used to split a string into an array of substrings, and returns the new array. The split() method uses the ':' as the separator.
+
+Final Challenge:  What is the type of the variable auth at the end of this code sequence? What's inside the variable auth at the end?
+* Array that contains two strings of username and password
